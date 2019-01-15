@@ -8,16 +8,14 @@
   padding-top: 10px;
 }
 
-.tab-bar.tab-bar_tab {
+.tab-bar .tab-bar_tab {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .tab-bar .tab-bar_tab i {
-  display: flex;
-  text-align: center;
   margin-bottom: 5px;
-
-
 }
+
+/*2-4, 4:43*/
