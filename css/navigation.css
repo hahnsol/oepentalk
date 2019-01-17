@@ -1,21 +1,33 @@
 .tab-bar {
-  background-color: #f7f7f7;
+  background-color: #F5F1F5;
   position: fixed;
   width: 100%;
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
+  padding: 10px 30px 5px 30px;
+  border-top:1px solid #c1c1c1;
 }
 
 .tab-bar .tab-bar_tab {
-  display: flex;
+  display:flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
+  color: #c1c1c1;
 }
 
 .tab-bar .tab-bar_tab i {
+  display: block;
+  text-align: center;
   margin-bottom: 5px;
+  font-size: 24px;
 }
 
-/*2-4, 4:43*/
+.tab-bar .tab-bar_title {
+  font-size: 15px;
+}
+
+.tab-bar .tab-bar_selected {
+  color: #523737;
+}
