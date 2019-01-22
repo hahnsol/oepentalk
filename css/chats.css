@@ -1,14 +1,16 @@
 .chats .chats_list {
-  border-top: 1px solid #c1c1c1;
+  border-top: 1px solid #F5F1F5;
 }
 
 .chats_list .chats_chat {
   padding:15px;
+  border-bottom: 1px solid #F5F1F5;
 }
 
 .chats_chat .chat_content img {
   width:50px;
   border-radius: 50%;
+  margin-right: 15px;
 }
 
 .chats_list .chats_chat a {
@@ -19,6 +21,25 @@
 }
 
 .chats_chat .chat_content {
-  dispaly:flex;
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
+}
+
+.chat_content .chat_preview {
+  padding-top: 10px;
+}
+.chat_preview .chat_user {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.chat_preview .chat_last-message {
+  color:#b4b4b4;
+  font-size: 11px;
+}
+
+.chats_chat .chat_date-time {
+  color: #b4b4b4;
+  font-size: 11px;
+  padding-top: 15px;
 }

@@ -1,6 +1,6 @@
 .friends_section .friends_section-header {
-  border-top: 1px solid #c1c1c1;
-  border-bottom: 1px solid #c1c1c1;
+  border-top: 1px solid #F5F1F5;
+  border-bottom: 1px solid #F5F1F5;
   padding:10px 15px;
   font-size: 14px;
   color:#b4b4b4;
@@ -51,7 +51,7 @@
 }
 
 .friends_section-rows .friends_section-tagline {
-  font-size: 9px;
+  font-size: 10px;
   background-color: #F5F1F5;
   padding: 10px;
   border-radius: 5px;
