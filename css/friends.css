@@ -14,7 +14,7 @@
 }
 
 .friends_section-row img {
-  width:40px;
+  width:50px;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -30,6 +30,12 @@
   margin-right:15px;
 }
 
+.friends_section-column img {
+  width:40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
 .friends_section-column {
   display: flex;
   align-items: center;
@@ -39,4 +45,15 @@
   font-size: 13px;
 }
 
-2-6, 5:17
+.friends_section-rows .with-tagline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends_section-rows .friends_section-tagline {
+  font-size: 9px;
+  background-color: #F5F1F5;
+  padding: 10px;
+  border-radius: 5px;
+  color:#5e5e5e;
+}
