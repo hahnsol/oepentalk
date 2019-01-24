@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding:15px;
+  margin-bottom: 10px;
 }
 
 .more_header .more_column img {
@@ -36,4 +37,78 @@
   color: #523727;
 }
 
-2-10, 4:34
+.more_options {
+  background-color: white;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding-top:20px;
+  padding-bottom: 15px;
+}
+
+.more_options .more_option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #523727;
+}
+
+.more_options .more_option i {
+  margin-bottom: 10px;
+}
+
+.more_option .more_option-title {
+  font-size: 13px;
+}
+
+.more_plus-friends {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 20px 0px 20px 30px;
+}
+
+.more_plus-friends .plus-friends_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.plus-friends_header .plus-friends_learn-more {
+  font-size: 14px;
+  color: #b4b4b4;
+  padding-right: 20px;
+}
+
+.plus-friends_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.plus-friends_items .plus-friends_item {
+  width:50%;
+  margin-bottom:30px;
+}
+
+.plus-friends_item .plus-friends_item-title {
+  font-size: 13px;
+  margin-left: 20px;
+}
+.more_links {
+  background-color: white;
+  display: flex;
+}
+
+.more_links .more_option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-left:30px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+}
+.more_links img {
+  height: 45px;
+  margin-bottom: 10px;
+}
