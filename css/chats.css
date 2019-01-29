@@ -58,6 +58,14 @@
   right:20px;
   bottom:80px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: crosshair;
+  transition: color 0.3s, background 0.3s, transform 0.3s ease-in-out;
+}
+
+.chat-btn:hover {
+  background-color: black;
+  color: white;
+  transform: rotateY(1turn);
 }
 
 .header_text .fa-caret-down {
