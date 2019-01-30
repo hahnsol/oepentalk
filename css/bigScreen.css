@@ -18,3 +18,9 @@
 /*display 2번쓴이유는? 왜 none으로 해야하는지?
 또 왜 mobile.css 안에 bigScreenText에서 dispaly
 flex를 또 왜 해야하는건지?*/
+
+/* 그에 대한 해답: 화면미니멈사이즈보다 이하가 되면
+bigScreenText가 없어져야하니까 display:none으로
+인해 무효화됨. 그리고 그 미니멈사이즈 이상일 경우는
+bigScreenText가 구현되야하므로 dispaly:flex를
+적어준것임!!!*/

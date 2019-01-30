@@ -5,7 +5,7 @@
   }
 
  main {
-  animation: 1s fade-in ease-in-out;
+  animation: 5s fade-in ease-in-out;
 }
 
  @keyframes fade-in {
